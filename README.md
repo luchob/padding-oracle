@@ -6,7 +6,7 @@ This is a small java application that demonstrates a successfull _Padding Oracle
 
 The rough idea is that a text encrypted with a block cipher (e.g. AES, 3DES, etc) in CBC mode of operation and PKCS7 padding may be decrypted without knowledge of the secret key. The only thing that is necessary is the so called _Padding oracle_. A padding oracle leaks data about whether the padding of an encrypted message is correct or not. Just that.
 
-The application encryts a text message and tries to decrypt it. The bundle contains a padding oracle.
+The application encrypts a text message and tries to decrypt it. The bundle contains a padding oracle.
 
 More details about padding oracle attacks are available [here](https://en.wikipedia.org/wiki/Padding_oracle_attack).
 There was missing information about some implementation cornercases - please see [here](http://crypto.stackexchange.com/questions/40800/is-the-padding-oracle-attack-deterministic).
@@ -52,7 +52,7 @@ The application can be easily explored and experimented with in the Eclipse IDE.
 gradlew eclipse
 ```
 
-After that import the application as existing Eclipse project. There is single class `Main` which is an entry point to the app. If another IDE is used please import the java sources as appropriate for it.
+After that import the application as an existing Eclipse project. There is single class `Main` which is an entry point to the app. If another IDE is used please import the java sources as appropriate for it.
 
 ## Notes
 
@@ -61,7 +61,7 @@ The performance of the application can be improved in the future by:
 * paralelizing the decryption operations
 * improving the ambiguity resolution whenever there are padding byte conflicts
 
-Please note that this is just an educational application and not all of the best coding practices are taken into account when creating it.
+Please note that this is just an educational application and not all of the best coding practices are taken into account during development.
 
 ## Bug reports
 
