@@ -8,8 +8,8 @@ The rough idea is that a text encrypted with a block cipher (e.g. AES, 3DES, etc
 
 The application encryts a text message and tries to decrypt it. The bundle contains a padding oracle.
 
-More details about padding oracle attacks are available [here|https://en.wikipedia.org/wiki/Padding_oracle_attack].
-There was missing information about some implementation cornercases - please see [here|http://crypto.stackexchange.com/questions/40800/is-the-padding-oracle-attack-deterministic].
+More details about padding oracle attacks are available [here](https://en.wikipedia.org/wiki/Padding_oracle_attack).
+There was missing information about some implementation cornercases - please see [here](http://crypto.stackexchange.com/questions/40800/is-the-padding-oracle-attack-deterministic).
 
 ## How to run the application
 
