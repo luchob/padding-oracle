@@ -56,12 +56,12 @@ After that import the application as an existing Eclipse project. There is singl
 
 ## Notes
 
-The performance of the application can be improved in the future by:
+The performance of the application could have been better by:
 
 * paralelizing the decryption operations
 * improving the ambiguity resolution whenever there are padding byte conflicts
 
-Please note that this is just an educational application and not all of the best coding practices are taken into account during development.
+Please note that this is just an educational application and not all of the best coding practices are taken into account during development. The focus is on the padding oracle.
 
 ## Bug reports
 
